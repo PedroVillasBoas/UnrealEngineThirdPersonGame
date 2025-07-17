@@ -1,6 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
+using UnrealBuildTool.Rules;
 
 public class Warrior : ModuleRules
 {
@@ -14,7 +15,8 @@ public class Warrior : ModuleRules
 			"Engine", 
 			"InputCore", 
 			"EnhancedInput",
-			"GameplayTags"});
+			"GameplayTags",
+            "EnhancedInput"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
